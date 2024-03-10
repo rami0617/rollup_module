@@ -1,0 +1,25 @@
+{
+  "name": "module_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "type": "module",
+  "module": "dist/bundle.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "npx rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.12.1",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.2",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
